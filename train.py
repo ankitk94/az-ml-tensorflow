@@ -119,6 +119,7 @@ with tf.Session() as sess:
     os.makedirs('./outputs/model', exist_ok=True)
     # files saved in the "./outputs" folder are automatically uploaded into run history
     saver.save(sess, './outputs/model/mnist-tf.model')
+    saver.save(sess, './outputs/mnist-tf.model')
 '''
 preds = reg.predict(data["test"]["X"])
 mse = mean_squared_error(preds, data["test"]["y"])
