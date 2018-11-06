@@ -4,6 +4,7 @@ dependencies:
   - scikit-learn
   - numpy
   - tensorflow
+  - matplotlib
 
   - pip:
     - numpy==1.14.2
@@ -11,6 +12,7 @@ dependencies:
     - scipy==1.0.0
     - scikit-learn==0.19.1
     - tensorflow
+    - matplotlib
     # Required packages for AzureML execution, history, and data preparation.
     - --index-url https://azuremlsdktestpypi.azureedge.net/sdk-release/Preview/E7501C02541B433786111FE8E140CAA1
     - --extra-index-url https://pypi.python.org/simple
